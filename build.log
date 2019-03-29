@@ -1,0 +1,946 @@
+
+==============================================
+START : FUNC_BUILD_KERNEL
+==============================================
+
+build common config=exynos9610-a50_defconfig 
+build model config=a50dd 
+rm files in : /mnt/080b9fba-139f-40aa-b1d1-529119d8c495/develop/Android/Kernel/android_kernel_samsung_universal9610/arch/arm64/boot/dts/*.dtb
+rm: cannot remove '/mnt/080b9fba-139f-40aa-b1d1-529119d8c495/develop/Android/Kernel/android_kernel_samsung_universal9610/arch/arm64/boot/dts/*.dtb': No such file or directory
+rm: cannot remove '/mnt/080b9fba-139f-40aa-b1d1-529119d8c495/develop/Android/Kernel/android_kernel_samsung_universal9610/arch/arm64/boot/dtb/*.dtb': No such file or directory
+rm: cannot remove '/mnt/080b9fba-139f-40aa-b1d1-529119d8c495/develop/Android/Kernel/android_kernel_samsung_universal9610/arch/arm64/boot/boot.img-dtb': No such file or directory
+rm: cannot remove '/mnt/080b9fba-139f-40aa-b1d1-529119d8c495/develop/Android/Kernel/android_kernel_samsung_universal9610/arch/arm64/boot/boot.img-zImage': No such file or directory
+GCC_TOOLCHAIN - /mnt/080b9fba-139f-40aa-b1d1-529119d8c495/develop/Android/Toolchain/aarch64-linux-android-4.9
+drivers/Kconfig:231:warning: ignoring unsupported character ''
+drivers/sensorhub/Kconfig:5:warning: ignoring unsupported character ''
+drivers/sensorhub/Kconfig:6:warning: ignoring unsupported character ''
+drivers/sensorhub/Kconfig:7:warning: ignoring unsupported character ''
+drivers/sensorhub/Kconfig:8:warning: ignoring unsupported character ''
+drivers/sensorhub/Kconfig:9:warning: ignoring unsupported character ''
+drivers/sensorhub/Kconfig:9:warning: ignoring unsupported character ''
+drivers/sensorhub/Kconfig:16:warning: ignoring unsupported character ''
+drivers/sensorhub/Kconfig:17:warning: ignoring unsupported character ''
+drivers/sensorhub/Kconfig:18:warning: ignoring unsupported character ''
+drivers/sensorhub/Kconfig:19:warning: ignoring unsupported character ''
+drivers/sensorhub/Kconfig:19:warning: ignoring unsupported character ''
+drivers/sensorhub/Kconfig:22:warning: ignoring unsupported character ''
+drivers/sensorhub/Kconfig:23:warning: ignoring unsupported character ''
+drivers/sensorhub/Kconfig:24:warning: ignoring unsupported character ''
+drivers/sensorhub/Kconfig:25:warning: ignoring unsupported character ''
+drivers/sensorhub/Kconfig:26:warning: ignoring unsupported character ''
+drivers/sensorhub/Kconfig:26:warning: ignoring unsupported character ''
+drivers/sensorhub/Kconfig:31:warning: ignoring unsupported character ''
+drivers/sensorhub/Kconfig:32:warning: ignoring unsupported character ''
+drivers/sensorhub/Kconfig:33:warning: ignoring unsupported character ''
+drivers/sensorhub/Kconfig:34:warning: ignoring unsupported character ''
+drivers/sensorhub/Kconfig:35:warning: ignoring unsupported character ''
+drivers/sensorhub/Kconfig:35:warning: ignoring unsupported character ''
+drivers/sensorhub/Kconfig:40:warning: ignoring unsupported character ''
+drivers/sensorhub/Kconfig:40:warning: ignoring unsupported character ''
+drivers/sensorhub/factory/Kconfig:5:warning: ignoring unsupported character ''
+drivers/sensorhub/factory/Kconfig:6:warning: ignoring unsupported character ''
+drivers/sensorhub/factory/Kconfig:7:warning: ignoring unsupported character ''
+drivers/sensorhub/factory/Kconfig:8:warning: ignoring unsupported character ''
+drivers/sensorhub/factory/Kconfig:9:warning: ignoring unsupported character ''
+drivers/sensorhub/factory/Kconfig:9:warning: ignoring unsupported character ''
+drivers/sensorhub/factory/Kconfig:16:warning: ignoring unsupported character ''
+drivers/sensorhub/factory/Kconfig:17:warning: ignoring unsupported character ''
+drivers/sensorhub/factory/Kconfig:18:warning: ignoring unsupported character ''
+drivers/sensorhub/factory/Kconfig:19:warning: ignoring unsupported character ''
+drivers/sensorhub/factory/Kconfig:20:warning: ignoring unsupported character ''
+drivers/sensorhub/factory/Kconfig:20:warning: ignoring unsupported character ''
+drivers/sensorhub/factory/Kconfig:27:warning: ignoring unsupported character ''
+drivers/sensorhub/factory/Kconfig:28:warning: ignoring unsupported character ''
+drivers/sensorhub/factory/Kconfig:29:warning: ignoring unsupported character ''
+drivers/sensorhub/factory/Kconfig:30:warning: ignoring unsupported character ''
+drivers/sensorhub/factory/Kconfig:31:warning: ignoring unsupported character ''
+drivers/sensorhub/factory/Kconfig:31:warning: ignoring unsupported character ''
+drivers/sensorhub/factory/Kconfig:38:warning: ignoring unsupported character ''
+drivers/sensorhub/factory/Kconfig:39:warning: ignoring unsupported character ''
+drivers/sensorhub/factory/Kconfig:40:warning: ignoring unsupported character ''
+drivers/sensorhub/factory/Kconfig:41:warning: ignoring unsupported character ''
+drivers/sensorhub/factory/Kconfig:42:warning: ignoring unsupported character ''
+drivers/sensorhub/factory/Kconfig:42:warning: ignoring unsupported character ''
+drivers/sensorhub/factory/Kconfig:49:warning: ignoring unsupported character ''
+drivers/sensorhub/factory/Kconfig:50:warning: ignoring unsupported character ''
+drivers/sensorhub/factory/Kconfig:51:warning: ignoring unsupported character ''
+drivers/sensorhub/factory/Kconfig:52:warning: ignoring unsupported character ''
+drivers/sensorhub/factory/Kconfig:53:warning: ignoring unsupported character ''
+drivers/sensorhub/factory/Kconfig:53:warning: ignoring unsupported character ''
+drivers/sensorhub/factory/Kconfig:60:warning: ignoring unsupported character ''
+drivers/sensorhub/factory/Kconfig:61:warning: ignoring unsupported character ''
+drivers/sensorhub/factory/Kconfig:62:warning: ignoring unsupported character ''
+drivers/sensorhub/factory/Kconfig:63:warning: ignoring unsupported character ''
+drivers/sensorhub/factory/Kconfig:64:warning: ignoring unsupported character ''
+drivers/sensorhub/factory/Kconfig:64:warning: ignoring unsupported character ''
+drivers/sensorhub/factory/Kconfig:71:warning: ignoring unsupported character ''
+drivers/sensorhub/factory/Kconfig:72:warning: ignoring unsupported character ''
+drivers/sensorhub/factory/Kconfig:73:warning: ignoring unsupported character ''
+drivers/sensorhub/factory/Kconfig:74:warning: ignoring unsupported character ''
+drivers/sensorhub/factory/Kconfig:75:warning: ignoring unsupported character ''
+drivers/sensorhub/factory/Kconfig:75:warning: ignoring unsupported character ''
+drivers/sensorhub/factory/Kconfig:81:warning: ignoring unsupported character ''
+drivers/sensorhub/factory/Kconfig:82:warning: ignoring unsupported character ''
+drivers/sensorhub/factory/Kconfig:83:warning: ignoring unsupported character ''
+drivers/sensorhub/factory/Kconfig:84:warning: ignoring unsupported character ''
+drivers/sensorhub/factory/Kconfig:85:warning: ignoring unsupported character ''
+drivers/sensorhub/factory/Kconfig:86:warning: ignoring unsupported character ''
+#
+# configuration written to .config
+#
+GCC_TOOLCHAIN - /mnt/080b9fba-139f-40aa-b1d1-529119d8c495/develop/Android/Toolchain/aarch64-linux-android-4.9
+arch/arm64/Makefile:57: Detected assembler with broken .inst; disassembly will be unreliable
+GCC_TOOLCHAIN - /mnt/080b9fba-139f-40aa-b1d1-529119d8c495/develop/Android/Toolchain/aarch64-linux-android-4.9
+scripts/kconfig/conf  --silentoldconfig Kconfig
+drivers/Kconfig:231:warning: ignoring unsupported character ''
+drivers/sensorhub/Kconfig:5:warning: ignoring unsupported character ''
+drivers/sensorhub/Kconfig:6:warning: ignoring unsupported character ''
+drivers/sensorhub/Kconfig:7:warning: ignoring unsupported character ''
+drivers/sensorhub/Kconfig:8:warning: ignoring unsupported character ''
+drivers/sensorhub/Kconfig:9:warning: ignoring unsupported character ''
+drivers/sensorhub/Kconfig:9:warning: ignoring unsupported character ''
+drivers/sensorhub/Kconfig:16:warning: ignoring unsupported character ''
+drivers/sensorhub/Kconfig:17:warning: ignoring unsupported character ''
+drivers/sensorhub/Kconfig:18:warning: ignoring unsupported character ''
+drivers/sensorhub/Kconfig:19:warning: ignoring unsupported character ''
+drivers/sensorhub/Kconfig:19:warning: ignoring unsupported character ''
+drivers/sensorhub/Kconfig:22:warning: ignoring unsupported character ''
+drivers/sensorhub/Kconfig:23:warning: ignoring unsupported character ''
+drivers/sensorhub/Kconfig:24:warning: ignoring unsupported character ''
+drivers/sensorhub/Kconfig:25:warning: ignoring unsupported character ''
+drivers/sensorhub/Kconfig:26:warning: ignoring unsupported character ''
+drivers/sensorhub/Kconfig:26:warning: ignoring unsupported character ''
+drivers/sensorhub/Kconfig:31:warning: ignoring unsupported character ''
+drivers/sensorhub/Kconfig:32:warning: ignoring unsupported character ''
+drivers/sensorhub/Kconfig:33:warning: ignoring unsupported character ''
+drivers/sensorhub/Kconfig:34:warning: ignoring unsupported character ''
+drivers/sensorhub/Kconfig:35:warning: ignoring unsupported character ''
+drivers/sensorhub/Kconfig:35:warning: ignoring unsupported character ''
+drivers/sensorhub/Kconfig:40:warning: ignoring unsupported character ''
+drivers/sensorhub/Kconfig:40:warning: ignoring unsupported character ''
+drivers/sensorhub/factory/Kconfig:5:warning: ignoring unsupported character ''
+drivers/sensorhub/factory/Kconfig:6:warning: ignoring unsupported character ''
+drivers/sensorhub/factory/Kconfig:7:warning: ignoring unsupported character ''
+drivers/sensorhub/factory/Kconfig:8:warning: ignoring unsupported character ''
+drivers/sensorhub/factory/Kconfig:9:warning: ignoring unsupported character ''
+drivers/sensorhub/factory/Kconfig:9:warning: ignoring unsupported character ''
+drivers/sensorhub/factory/Kconfig:16:warning: ignoring unsupported character ''
+drivers/sensorhub/factory/Kconfig:17:warning: ignoring unsupported character ''
+drivers/sensorhub/factory/Kconfig:18:warning: ignoring unsupported character ''
+drivers/sensorhub/factory/Kconfig:19:warning: ignoring unsupported character ''
+drivers/sensorhub/factory/Kconfig:20:warning: ignoring unsupported character ''
+drivers/sensorhub/factory/Kconfig:20:warning: ignoring unsupported character ''
+drivers/sensorhub/factory/Kconfig:27:warning: ignoring unsupported character ''
+drivers/sensorhub/factory/Kconfig:28:warning: ignoring unsupported character ''
+drivers/sensorhub/factory/Kconfig:29:warning: ignoring unsupported character ''
+drivers/sensorhub/factory/Kconfig:30:warning: ignoring unsupported character ''
+drivers/sensorhub/factory/Kconfig:31:warning: ignoring unsupported character ''
+drivers/sensorhub/factory/Kconfig:31:warning: ignoring unsupported character ''
+drivers/sensorhub/factory/Kconfig:38:warning: ignoring unsupported character ''
+drivers/sensorhub/factory/Kconfig:39:warning: ignoring unsupported character ''
+drivers/sensorhub/factory/Kconfig:40:warning: ignoring unsupported character ''
+drivers/sensorhub/factory/Kconfig:41:warning: ignoring unsupported character ''
+drivers/sensorhub/factory/Kconfig:42:warning: ignoring unsupported character ''
+drivers/sensorhub/factory/Kconfig:42:warning: ignoring unsupported character ''
+drivers/sensorhub/factory/Kconfig:49:warning: ignoring unsupported character ''
+drivers/sensorhub/factory/Kconfig:50:warning: ignoring unsupported character ''
+drivers/sensorhub/factory/Kconfig:51:warning: ignoring unsupported character ''
+drivers/sensorhub/factory/Kconfig:52:warning: ignoring unsupported character ''
+drivers/sensorhub/factory/Kconfig:53:warning: ignoring unsupported character ''
+drivers/sensorhub/factory/Kconfig:53:warning: ignoring unsupported character ''
+drivers/sensorhub/factory/Kconfig:60:warning: ignoring unsupported character ''
+drivers/sensorhub/factory/Kconfig:61:warning: ignoring unsupported character ''
+drivers/sensorhub/factory/Kconfig:62:warning: ignoring unsupported character ''
+drivers/sensorhub/factory/Kconfig:63:warning: ignoring unsupported character ''
+drivers/sensorhub/factory/Kconfig:64:warning: ignoring unsupported character ''
+drivers/sensorhub/factory/Kconfig:64:warning: ignoring unsupported character ''
+drivers/sensorhub/factory/Kconfig:71:warning: ignoring unsupported character ''
+drivers/sensorhub/factory/Kconfig:72:warning: ignoring unsupported character ''
+drivers/sensorhub/factory/Kconfig:73:warning: ignoring unsupported character ''
+drivers/sensorhub/factory/Kconfig:74:warning: ignoring unsupported character ''
+drivers/sensorhub/factory/Kconfig:75:warning: ignoring unsupported character ''
+drivers/sensorhub/factory/Kconfig:75:warning: ignoring unsupported character ''
+drivers/sensorhub/factory/Kconfig:81:warning: ignoring unsupported character ''
+drivers/sensorhub/factory/Kconfig:82:warning: ignoring unsupported character ''
+drivers/sensorhub/factory/Kconfig:83:warning: ignoring unsupported character ''
+drivers/sensorhub/factory/Kconfig:84:warning: ignoring unsupported character ''
+drivers/sensorhub/factory/Kconfig:85:warning: ignoring unsupported character ''
+drivers/sensorhub/factory/Kconfig:86:warning: ignoring unsupported character ''
+GCC_TOOLCHAIN - /mnt/080b9fba-139f-40aa-b1d1-529119d8c495/develop/Android/Toolchain/aarch64-linux-android-4.9
+arch/arm64/Makefile:57: Detected assembler with broken .inst; disassembly will be unreliable
+  CHK     include/config/kernel.release
+  CHK     include/generated/uapi/linux/version.h
+  CHK     include/generated/utsrelease.h
+  CHK     scripts/mod/devicetable-offsets.h
+  CHK     include/generated/timeconst.h
+  CHK     include/generated/bounds.h
+  CHK     include/generated/asm-offsets.h
+  CALL    scripts/checksyscalls.sh
+  CHK     include/generated/compile.h
+  GZIP    kernel/config_data.gz
+  CHK     kernel/config_data.h
+  Building modules, stage 2.
+  MODPOST 1 modules
+Processing dts files...
+=> Processing: exynos9610-a50_swa_open_00.dts
+=> Generating: exynos9610-a50_swa_open_00.dtb
+Warning (reg_format): "reg" property in /fragment@13/__overlay__/sensor3-ch-mode0 has invalid length (64 bytes) (#address-cells == 2, #size-cells == 1)
+Warning (reg_format): "reg" property in /fragment@model/__overlay__/i2c@20/tc3xxk@20 has invalid length (4 bytes) (#address-cells == 2, #size-cells == 1)
+Warning (reg_format): "reg" property in /fragment@45/__overlay__/etspi-spi@0 has invalid length (4 bytes) (#address-cells == 2, #size-cells == 1)
+Warning (unit_address_vs_reg): Node /fragment@modemif has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@modemif/__overlay__/mif_pdata has a reg or ranges property, but no unit name
+Warning (unit_address_vs_reg): Node /fragment@modemif/__overlay__/shmem@F0000000 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@lcd has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@0 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@1 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@camera has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@camera/__overlay__/fimc-fimc_is_sensor_imx576@1A has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@camera/__overlay__/fimc-is-flash-gpio@0 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@camera/__overlay__/fimc-is_sensor_gc5035@37 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@camera/__overlay__/fimc-is_sensor_4ha@6C has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@camera/__overlay__/fimc-is_sensor_2x5@10 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@2 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@3 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@4 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@5 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@6 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@7 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@8 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@9 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@9/__overlay__/sm5713-fled@49 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@9/__overlay__/sm5713-fled@49/sm5713-fled@0 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@10 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@11 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@12 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@13 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@13/__overlay__ has a reg or ranges property, but no unit name
+Warning (unit_address_vs_reg): Node /fragment@13/__overlay__/sensor3-ch-mode0 has a reg or ranges property, but no unit name
+Warning (unit_address_vs_reg): Node /fragment@sound has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@sound/__overlay__/sound/rdma@0 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@sound/__overlay__/sound/rdma@1 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@sound/__overlay__/sound/rdma@2 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@sound/__overlay__/sound/rdma@3 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@sound/__overlay__/sound/rdma@4 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@sound/__overlay__/sound/rdma@5 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@sound/__overlay__/sound/rdma@6 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@sound/__overlay__/sound/rdma@7 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@sound/__overlay__/sound/wdma@0 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@sound/__overlay__/sound/wdma@1 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@sound/__overlay__/sound/wdma@2 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@sound/__overlay__/sound/wdma@3 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@sound/__overlay__/sound/wdma@4 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@sound/__overlay__/sound/uaif@0 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@sound/__overlay__/sound/uaif@1 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@sound/__overlay__/sound/uaif@2 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@sound/__overlay__/sound/uaif@4 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@sound/__overlay__/sound/dsif@0 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@sound/__overlay__/sound/spdy@0 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@sound/__overlay__/sound/sifs0@0 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@sound/__overlay__/sound/sifs1@0 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@sound/__overlay__/sound/sifs2@0 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@14 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@14/__overlay__/ext_bin@1 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@14/__overlay__/ext_bin@2 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@14/__overlay__/ext_bin@5 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@15 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@16 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@model has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@model/__overlay__/speedy@11a10000 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@model/__overlay__/sec_thermistor@0 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@model/__overlay__/sec_thermistor@6 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@model/__overlay__/gpio_keys/button@2 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@model/__overlay__/gpio_keys/button@3 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@model/__overlay__/gpio_keys/button@4 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@model/__overlay__/i2c@13870000 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@model/__overlay__/fixedregulator@1 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@model/__overlay__/dwmmc2@13550000 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@model/__overlay__/argos/boot_device@1 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@model/__overlay__/argos/boot_device@2 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@model/__overlay__/argos/boot_device@3 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@model/__overlay__/i2c@20 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@17 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@18 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@19 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@20 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@21 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@22 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@23 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@24 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@25 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@26 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@27 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@28 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@29 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@30 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@31 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@32 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@33 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@34 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@35 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@36 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@37 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@38 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@39 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@40 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@41 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@42 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@battery has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@43 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@44 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@45 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@46 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@47 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@48 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@49 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@50 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@51 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@52 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@53 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@54 has a unit name, but no reg property
+Warning (avoid_default_addr_size): Relying on default #address-cells value for /fragment@13/__overlay__
+Warning (avoid_default_addr_size): Relying on default #size-cells value for /fragment@13/__overlay__
+Warning (avoid_default_addr_size): Relying on default #address-cells value for /fragment@13/__overlay__/sensor3-ch-mode0
+Warning (avoid_default_addr_size): Relying on default #size-cells value for /fragment@13/__overlay__/sensor3-ch-mode0
+Warning (avoid_default_addr_size): Relying on default #address-cells value for /fragment@model/__overlay__/i2c@20/tc3xxk@20
+Warning (avoid_default_addr_size): Relying on default #size-cells value for /fragment@model/__overlay__/i2c@20/tc3xxk@20
+Warning (avoid_default_addr_size): Relying on default #address-cells value for /fragment@45/__overlay__/etspi-spi@0
+Warning (avoid_default_addr_size): Relying on default #size-cells value for /fragment@45/__overlay__/etspi-spi@0
+=> Processing: exynos9610-a50_swa_open_01.dts
+=> Generating: exynos9610-a50_swa_open_01.dtb
+Warning (reg_format): "reg" property in /fragment@13/__overlay__/sensor3-ch-mode0 has invalid length (64 bytes) (#address-cells == 2, #size-cells == 1)
+Warning (reg_format): "reg" property in /fragment@model/__overlay__/i2c@20/tc3xxk@20 has invalid length (4 bytes) (#address-cells == 2, #size-cells == 1)
+Warning (reg_format): "reg" property in /fragment@45/__overlay__/etspi-spi@0 has invalid length (4 bytes) (#address-cells == 2, #size-cells == 1)
+Warning (unit_address_vs_reg): Node /fragment@modemif has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@modemif/__overlay__/mif_pdata has a reg or ranges property, but no unit name
+Warning (unit_address_vs_reg): Node /fragment@modemif/__overlay__/shmem@F0000000 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@lcd has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@0 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@1 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@camera has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@camera/__overlay__/fimc-fimc_is_sensor_imx576@1A has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@camera/__overlay__/fimc-is-flash-gpio@0 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@camera/__overlay__/fimc-is_sensor_gc5035@37 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@camera/__overlay__/fimc-is_sensor_4ha@6C has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@camera/__overlay__/fimc-is_sensor_2x5@10 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@2 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@3 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@4 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@5 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@6 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@7 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@8 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@9 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@9/__overlay__/sm5713-fled@49 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@9/__overlay__/sm5713-fled@49/sm5713-fled@0 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@10 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@11 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@12 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@13 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@13/__overlay__ has a reg or ranges property, but no unit name
+Warning (unit_address_vs_reg): Node /fragment@13/__overlay__/sensor3-ch-mode0 has a reg or ranges property, but no unit name
+Warning (unit_address_vs_reg): Node /fragment@sound has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@sound/__overlay__/sound/rdma@0 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@sound/__overlay__/sound/rdma@1 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@sound/__overlay__/sound/rdma@2 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@sound/__overlay__/sound/rdma@3 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@sound/__overlay__/sound/rdma@4 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@sound/__overlay__/sound/rdma@5 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@sound/__overlay__/sound/rdma@6 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@sound/__overlay__/sound/rdma@7 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@sound/__overlay__/sound/wdma@0 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@sound/__overlay__/sound/wdma@1 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@sound/__overlay__/sound/wdma@2 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@sound/__overlay__/sound/wdma@3 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@sound/__overlay__/sound/wdma@4 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@sound/__overlay__/sound/uaif@0 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@sound/__overlay__/sound/uaif@1 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@sound/__overlay__/sound/uaif@2 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@sound/__overlay__/sound/uaif@4 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@sound/__overlay__/sound/dsif@0 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@sound/__overlay__/sound/spdy@0 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@sound/__overlay__/sound/sifs0@0 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@sound/__overlay__/sound/sifs1@0 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@sound/__overlay__/sound/sifs2@0 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@14 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@14/__overlay__/ext_bin@1 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@14/__overlay__/ext_bin@2 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@14/__overlay__/ext_bin@5 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@15 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@16 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@model has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@model/__overlay__/speedy@11a10000 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@model/__overlay__/sec_thermistor@0 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@model/__overlay__/sec_thermistor@6 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@model/__overlay__/gpio_keys/button@2 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@model/__overlay__/gpio_keys/button@3 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@model/__overlay__/gpio_keys/button@4 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@model/__overlay__/i2c@13870000 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@model/__overlay__/fixedregulator@1 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@model/__overlay__/dwmmc2@13550000 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@model/__overlay__/argos/boot_device@1 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@model/__overlay__/argos/boot_device@2 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@model/__overlay__/argos/boot_device@3 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@model/__overlay__/i2c@20 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@17 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@18 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@19 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@20 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@21 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@22 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@23 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@24 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@25 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@26 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@27 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@28 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@29 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@30 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@31 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@32 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@33 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@34 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@35 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@36 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@37 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@38 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@39 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@40 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@41 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@42 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@battery has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@43 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@44 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@45 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@46 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@47 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@48 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@49 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@50 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@51 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@52 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@53 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@54 has a unit name, but no reg property
+Warning (avoid_default_addr_size): Relying on default #address-cells value for /fragment@13/__overlay__
+Warning (avoid_default_addr_size): Relying on default #size-cells value for /fragment@13/__overlay__
+Warning (avoid_default_addr_size): Relying on default #address-cells value for /fragment@13/__overlay__/sensor3-ch-mode0
+Warning (avoid_default_addr_size): Relying on default #size-cells value for /fragment@13/__overlay__/sensor3-ch-mode0
+Warning (avoid_default_addr_size): Relying on default #address-cells value for /fragment@model/__overlay__/i2c@20/tc3xxk@20
+Warning (avoid_default_addr_size): Relying on default #size-cells value for /fragment@model/__overlay__/i2c@20/tc3xxk@20
+Warning (avoid_default_addr_size): Relying on default #address-cells value for /fragment@45/__overlay__/etspi-spi@0
+Warning (avoid_default_addr_size): Relying on default #size-cells value for /fragment@45/__overlay__/etspi-spi@0
+=> Processing: exynos9610-a50_swa_open_02.dts
+=> Generating: exynos9610-a50_swa_open_02.dtb
+Warning (reg_format): "reg" property in /fragment@13/__overlay__/sensor3-ch-mode0 has invalid length (64 bytes) (#address-cells == 2, #size-cells == 1)
+Warning (reg_format): "reg" property in /fragment@model/__overlay__/i2c@20/tc3xxk@20 has invalid length (4 bytes) (#address-cells == 2, #size-cells == 1)
+Warning (reg_format): "reg" property in /fragment@45/__overlay__/etspi-spi@0 has invalid length (4 bytes) (#address-cells == 2, #size-cells == 1)
+Warning (unit_address_vs_reg): Node /fragment@modemif has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@modemif/__overlay__/mif_pdata has a reg or ranges property, but no unit name
+Warning (unit_address_vs_reg): Node /fragment@modemif/__overlay__/shmem@F0000000 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@lcd has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@0 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@1 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@camera has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@camera/__overlay__/fimc-fimc_is_sensor_imx576@1A has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@camera/__overlay__/fimc-is-flash-gpio@0 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@camera/__overlay__/fimc-is_sensor_gc5035@37 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@camera/__overlay__/fimc-is_sensor_4ha@6C has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@camera/__overlay__/fimc-is_sensor_2x5@10 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@2 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@3 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@4 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@5 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@6 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@7 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@8 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@9 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@9/__overlay__/sm5713-fled@49 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@9/__overlay__/sm5713-fled@49/sm5713-fled@0 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@10 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@11 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@12 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@13 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@13/__overlay__ has a reg or ranges property, but no unit name
+Warning (unit_address_vs_reg): Node /fragment@13/__overlay__/sensor3-ch-mode0 has a reg or ranges property, but no unit name
+Warning (unit_address_vs_reg): Node /fragment@sound has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@sound/__overlay__/sound/rdma@0 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@sound/__overlay__/sound/rdma@1 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@sound/__overlay__/sound/rdma@2 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@sound/__overlay__/sound/rdma@3 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@sound/__overlay__/sound/rdma@4 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@sound/__overlay__/sound/rdma@5 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@sound/__overlay__/sound/rdma@6 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@sound/__overlay__/sound/rdma@7 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@sound/__overlay__/sound/wdma@0 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@sound/__overlay__/sound/wdma@1 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@sound/__overlay__/sound/wdma@2 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@sound/__overlay__/sound/wdma@3 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@sound/__overlay__/sound/wdma@4 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@sound/__overlay__/sound/uaif@0 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@sound/__overlay__/sound/uaif@1 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@sound/__overlay__/sound/uaif@2 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@sound/__overlay__/sound/uaif@4 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@sound/__overlay__/sound/dsif@0 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@sound/__overlay__/sound/spdy@0 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@sound/__overlay__/sound/sifs0@0 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@sound/__overlay__/sound/sifs1@0 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@sound/__overlay__/sound/sifs2@0 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@14 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@14/__overlay__/ext_bin@1 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@14/__overlay__/ext_bin@2 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@14/__overlay__/ext_bin@5 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@15 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@16 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@model has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@model/__overlay__/speedy@11a10000 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@model/__overlay__/sec_thermistor@0 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@model/__overlay__/sec_thermistor@6 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@model/__overlay__/gpio_keys/button@2 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@model/__overlay__/gpio_keys/button@3 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@model/__overlay__/gpio_keys/button@4 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@model/__overlay__/i2c@13870000 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@model/__overlay__/fixedregulator@1 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@model/__overlay__/dwmmc2@13550000 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@model/__overlay__/argos/boot_device@1 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@model/__overlay__/argos/boot_device@2 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@model/__overlay__/argos/boot_device@3 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@model/__overlay__/i2c@20 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@17 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@18 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@19 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@20 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@21 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@22 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@23 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@24 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@25 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@26 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@27 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@28 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@29 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@30 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@31 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@32 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@33 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@34 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@35 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@36 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@37 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@38 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@39 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@40 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@41 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@42 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@battery has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@43 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@44 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@45 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@46 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@47 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@48 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@49 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@50 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@51 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@52 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@53 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@54 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@55 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@56 has a unit name, but no reg property
+Warning (avoid_default_addr_size): Relying on default #address-cells value for /fragment@13/__overlay__
+Warning (avoid_default_addr_size): Relying on default #size-cells value for /fragment@13/__overlay__
+Warning (avoid_default_addr_size): Relying on default #address-cells value for /fragment@13/__overlay__/sensor3-ch-mode0
+Warning (avoid_default_addr_size): Relying on default #size-cells value for /fragment@13/__overlay__/sensor3-ch-mode0
+Warning (avoid_default_addr_size): Relying on default #address-cells value for /fragment@model/__overlay__/i2c@20/tc3xxk@20
+Warning (avoid_default_addr_size): Relying on default #size-cells value for /fragment@model/__overlay__/i2c@20/tc3xxk@20
+Warning (avoid_default_addr_size): Relying on default #address-cells value for /fragment@45/__overlay__/etspi-spi@0
+Warning (avoid_default_addr_size): Relying on default #size-cells value for /fragment@45/__overlay__/etspi-spi@0
+=> Processing: exynos9610-a50_swa_open_03.dts
+=> Generating: exynos9610-a50_swa_open_03.dtb
+Warning (reg_format): "reg" property in /fragment@13/__overlay__/sensor3-ch-mode0 has invalid length (64 bytes) (#address-cells == 2, #size-cells == 1)
+Warning (reg_format): "reg" property in /fragment@model/__overlay__/i2c@20/tc3xxk@20 has invalid length (4 bytes) (#address-cells == 2, #size-cells == 1)
+Warning (reg_format): "reg" property in /fragment@45/__overlay__/etspi-spi@0 has invalid length (4 bytes) (#address-cells == 2, #size-cells == 1)
+Warning (unit_address_vs_reg): Node /fragment@modemif has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@modemif/__overlay__/mif_pdata has a reg or ranges property, but no unit name
+Warning (unit_address_vs_reg): Node /fragment@modemif/__overlay__/shmem@F0000000 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@lcd has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@0 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@1 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@camera has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@camera/__overlay__/fimc-fimc_is_sensor_imx576@1A has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@camera/__overlay__/fimc-is-flash-gpio@0 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@camera/__overlay__/fimc-is_sensor_gc5035@37 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@camera/__overlay__/fimc-is_sensor_4ha@6C has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@camera/__overlay__/fimc-is_sensor_2x5@10 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@2 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@3 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@4 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@5 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@6 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@7 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@8 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@9 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@9/__overlay__/sm5713-fled@49 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@9/__overlay__/sm5713-fled@49/sm5713-fled@0 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@10 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@11 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@12 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@13 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@13/__overlay__ has a reg or ranges property, but no unit name
+Warning (unit_address_vs_reg): Node /fragment@13/__overlay__/sensor3-ch-mode0 has a reg or ranges property, but no unit name
+Warning (unit_address_vs_reg): Node /fragment@sound has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@sound/__overlay__/sound/rdma@0 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@sound/__overlay__/sound/rdma@1 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@sound/__overlay__/sound/rdma@2 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@sound/__overlay__/sound/rdma@3 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@sound/__overlay__/sound/rdma@4 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@sound/__overlay__/sound/rdma@5 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@sound/__overlay__/sound/rdma@6 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@sound/__overlay__/sound/rdma@7 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@sound/__overlay__/sound/wdma@0 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@sound/__overlay__/sound/wdma@1 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@sound/__overlay__/sound/wdma@2 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@sound/__overlay__/sound/wdma@3 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@sound/__overlay__/sound/wdma@4 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@sound/__overlay__/sound/uaif@0 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@sound/__overlay__/sound/uaif@1 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@sound/__overlay__/sound/uaif@2 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@sound/__overlay__/sound/uaif@4 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@sound/__overlay__/sound/dsif@0 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@sound/__overlay__/sound/spdy@0 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@sound/__overlay__/sound/sifs0@0 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@sound/__overlay__/sound/sifs1@0 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@sound/__overlay__/sound/sifs2@0 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@14 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@14/__overlay__/ext_bin@1 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@14/__overlay__/ext_bin@2 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@14/__overlay__/ext_bin@5 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@15 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@16 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@model has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@model/__overlay__/speedy@11a10000 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@model/__overlay__/sec_thermistor@0 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@model/__overlay__/sec_thermistor@6 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@model/__overlay__/gpio_keys/button@2 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@model/__overlay__/gpio_keys/button@3 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@model/__overlay__/gpio_keys/button@4 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@model/__overlay__/i2c@13870000 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@model/__overlay__/fixedregulator@1 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@model/__overlay__/dwmmc2@13550000 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@model/__overlay__/argos/boot_device@1 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@model/__overlay__/argos/boot_device@2 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@model/__overlay__/argos/boot_device@3 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@model/__overlay__/i2c@20 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@17 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@18 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@19 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@20 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@21 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@22 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@23 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@24 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@25 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@26 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@27 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@28 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@29 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@30 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@31 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@32 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@33 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@34 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@35 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@36 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@37 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@38 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@39 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@40 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@41 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@42 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@battery has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@43 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@44 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@45 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@46 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@47 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@48 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@49 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@50 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@51 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@52 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@53 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@54 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@55 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@56 has a unit name, but no reg property
+Warning (avoid_default_addr_size): Relying on default #address-cells value for /fragment@13/__overlay__
+Warning (avoid_default_addr_size): Relying on default #size-cells value for /fragment@13/__overlay__
+Warning (avoid_default_addr_size): Relying on default #address-cells value for /fragment@13/__overlay__/sensor3-ch-mode0
+Warning (avoid_default_addr_size): Relying on default #size-cells value for /fragment@13/__overlay__/sensor3-ch-mode0
+Warning (avoid_default_addr_size): Relying on default #address-cells value for /fragment@model/__overlay__/i2c@20/tc3xxk@20
+Warning (avoid_default_addr_size): Relying on default #size-cells value for /fragment@model/__overlay__/i2c@20/tc3xxk@20
+Warning (avoid_default_addr_size): Relying on default #address-cells value for /fragment@45/__overlay__/etspi-spi@0
+Warning (avoid_default_addr_size): Relying on default #size-cells value for /fragment@45/__overlay__/etspi-spi@0
+=> Processing: exynos9610-a50_swa_open_04.dts
+=> Generating: exynos9610-a50_swa_open_04.dtb
+Warning (reg_format): "reg" property in /fragment@13/__overlay__/sensor3-ch-mode0 has invalid length (64 bytes) (#address-cells == 2, #size-cells == 1)
+Warning (reg_format): "reg" property in /fragment@model/__overlay__/i2c@20/tc3xxk@20 has invalid length (4 bytes) (#address-cells == 2, #size-cells == 1)
+Warning (reg_format): "reg" property in /fragment@45/__overlay__/etspi-spi@0 has invalid length (4 bytes) (#address-cells == 2, #size-cells == 1)
+Warning (unit_address_vs_reg): Node /fragment@modemif has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@modemif/__overlay__/mif_pdata has a reg or ranges property, but no unit name
+Warning (unit_address_vs_reg): Node /fragment@modemif/__overlay__/shmem@F0000000 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@lcd has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@0 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@1 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@camera has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@camera/__overlay__/fimc-fimc_is_sensor_imx576@1A has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@camera/__overlay__/fimc-is-flash-gpio@0 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@camera/__overlay__/fimc-is_sensor_gc5035@37 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@camera/__overlay__/fimc-is_sensor_4ha@6C has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@camera/__overlay__/fimc-is_sensor_2x5@10 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@2 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@3 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@4 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@5 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@6 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@7 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@8 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@9 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@9/__overlay__/sm5713-fled@49 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@9/__overlay__/sm5713-fled@49/sm5713-fled@0 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@10 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@11 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@12 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@13 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@13/__overlay__ has a reg or ranges property, but no unit name
+Warning (unit_address_vs_reg): Node /fragment@13/__overlay__/sensor3-ch-mode0 has a reg or ranges property, but no unit name
+Warning (unit_address_vs_reg): Node /fragment@sound has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@sound/__overlay__/sound/rdma@0 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@sound/__overlay__/sound/rdma@1 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@sound/__overlay__/sound/rdma@2 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@sound/__overlay__/sound/rdma@3 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@sound/__overlay__/sound/rdma@4 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@sound/__overlay__/sound/rdma@5 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@sound/__overlay__/sound/rdma@6 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@sound/__overlay__/sound/rdma@7 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@sound/__overlay__/sound/wdma@0 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@sound/__overlay__/sound/wdma@1 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@sound/__overlay__/sound/wdma@2 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@sound/__overlay__/sound/wdma@3 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@sound/__overlay__/sound/wdma@4 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@sound/__overlay__/sound/uaif@0 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@sound/__overlay__/sound/uaif@1 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@sound/__overlay__/sound/uaif@2 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@sound/__overlay__/sound/uaif@4 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@sound/__overlay__/sound/dsif@0 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@sound/__overlay__/sound/spdy@0 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@sound/__overlay__/sound/sifs0@0 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@sound/__overlay__/sound/sifs1@0 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@sound/__overlay__/sound/sifs2@0 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@14 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@14/__overlay__/ext_bin@1 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@14/__overlay__/ext_bin@2 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@14/__overlay__/ext_bin@5 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@15 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@16 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@model has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@model/__overlay__/speedy@11a10000 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@model/__overlay__/sec_thermistor@0 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@model/__overlay__/sec_thermistor@6 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@model/__overlay__/gpio_keys/button@2 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@model/__overlay__/gpio_keys/button@3 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@model/__overlay__/gpio_keys/button@4 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@model/__overlay__/i2c@13870000 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@model/__overlay__/fixedregulator@1 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@model/__overlay__/dwmmc2@13550000 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@model/__overlay__/argos/boot_device@1 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@model/__overlay__/argos/boot_device@2 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@model/__overlay__/argos/boot_device@3 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@model/__overlay__/i2c@20 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@17 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@18 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@19 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@20 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@21 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@22 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@23 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@24 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@25 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@26 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@27 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@28 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@29 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@30 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@31 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@32 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@33 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@34 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@35 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@36 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@37 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@38 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@39 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@40 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@41 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@42 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@battery has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@43 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@44 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@45 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@46 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@47 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@48 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@49 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@50 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@51 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@52 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@53 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@54 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@55 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@56 has a unit name, but no reg property
+Warning (avoid_default_addr_size): Relying on default #address-cells value for /fragment@13/__overlay__
+Warning (avoid_default_addr_size): Relying on default #size-cells value for /fragment@13/__overlay__
+Warning (avoid_default_addr_size): Relying on default #address-cells value for /fragment@13/__overlay__/sensor3-ch-mode0
+Warning (avoid_default_addr_size): Relying on default #size-cells value for /fragment@13/__overlay__/sensor3-ch-mode0
+Warning (avoid_default_addr_size): Relying on default #address-cells value for /fragment@model/__overlay__/i2c@20/tc3xxk@20
+Warning (avoid_default_addr_size): Relying on default #size-cells value for /fragment@model/__overlay__/i2c@20/tc3xxk@20
+Warning (avoid_default_addr_size): Relying on default #address-cells value for /fragment@45/__overlay__/etspi-spi@0
+Warning (avoid_default_addr_size): Relying on default #size-cells value for /fragment@45/__overlay__/etspi-spi@0
+=> Processing: exynos9610-a50_swa_open_06.dts
+=> Generating: exynos9610-a50_swa_open_06.dtb
+Warning (reg_format): "reg" property in /fragment@13/__overlay__/sensor3-ch-mode0 has invalid length (64 bytes) (#address-cells == 2, #size-cells == 1)
+Warning (reg_format): "reg" property in /fragment@model/__overlay__/i2c@20/tc3xxk@20 has invalid length (4 bytes) (#address-cells == 2, #size-cells == 1)
+Warning (reg_format): "reg" property in /fragment@45/__overlay__/etspi-spi@0 has invalid length (4 bytes) (#address-cells == 2, #size-cells == 1)
+Warning (unit_address_vs_reg): Node /fragment@modemif has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@modemif/__overlay__/mif_pdata has a reg or ranges property, but no unit name
+Warning (unit_address_vs_reg): Node /fragment@modemif/__overlay__/shmem@F0000000 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@lcd has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@0 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@1 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@camera has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@camera/__overlay__/fimc-fimc_is_sensor_imx576@1A has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@camera/__overlay__/fimc-is-flash-gpio@0 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@camera/__overlay__/fimc-is_sensor_gc5035@37 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@camera/__overlay__/fimc-is_sensor_4ha@6C has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@camera/__overlay__/fimc-is_sensor_2x5@10 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@2 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@3 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@4 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@5 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@6 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@7 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@8 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@9 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@9/__overlay__/sm5713-fled@49 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@9/__overlay__/sm5713-fled@49/sm5713-fled@0 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@10 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@11 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@12 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@13 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@13/__overlay__ has a reg or ranges property, but no unit name
+Warning (unit_address_vs_reg): Node /fragment@13/__overlay__/sensor3-ch-mode0 has a reg or ranges property, but no unit name
+Warning (unit_address_vs_reg): Node /fragment@sound has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@sound/__overlay__/sound/rdma@0 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@sound/__overlay__/sound/rdma@1 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@sound/__overlay__/sound/rdma@2 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@sound/__overlay__/sound/rdma@3 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@sound/__overlay__/sound/rdma@4 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@sound/__overlay__/sound/rdma@5 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@sound/__overlay__/sound/rdma@6 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@sound/__overlay__/sound/rdma@7 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@sound/__overlay__/sound/wdma@0 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@sound/__overlay__/sound/wdma@1 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@sound/__overlay__/sound/wdma@2 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@sound/__overlay__/sound/wdma@3 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@sound/__overlay__/sound/wdma@4 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@sound/__overlay__/sound/uaif@0 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@sound/__overlay__/sound/uaif@1 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@sound/__overlay__/sound/uaif@2 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@sound/__overlay__/sound/uaif@4 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@sound/__overlay__/sound/dsif@0 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@sound/__overlay__/sound/spdy@0 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@sound/__overlay__/sound/sifs0@0 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@sound/__overlay__/sound/sifs1@0 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@sound/__overlay__/sound/sifs2@0 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@14 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@14/__overlay__/ext_bin@1 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@14/__overlay__/ext_bin@2 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@14/__overlay__/ext_bin@5 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@15 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@16 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@model has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@model/__overlay__/speedy@11a10000 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@model/__overlay__/sec_thermistor@0 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@model/__overlay__/sec_thermistor@6 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@model/__overlay__/gpio_keys/button@2 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@model/__overlay__/gpio_keys/button@3 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@model/__overlay__/gpio_keys/button@4 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@model/__overlay__/i2c@13870000 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@model/__overlay__/fixedregulator@1 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@model/__overlay__/dwmmc2@13550000 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@model/__overlay__/argos/boot_device@1 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@model/__overlay__/argos/boot_device@2 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@model/__overlay__/argos/boot_device@3 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@model/__overlay__/i2c@20 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@17 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@18 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@19 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@20 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@21 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@22 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@23 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@24 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@25 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@26 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@27 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@28 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@29 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@30 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@31 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@32 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@33 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@34 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@35 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@36 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@37 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@38 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@39 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@40 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@41 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@42 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@battery has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@43 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@44 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@45 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@46 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@47 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@48 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@49 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@50 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@51 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@52 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@53 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@54 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@55 has a unit name, but no reg property
+Warning (unit_address_vs_reg): Node /fragment@56 has a unit name, but no reg property
+Warning (avoid_default_addr_size): Relying on default #address-cells value for /fragment@13/__overlay__
+Warning (avoid_default_addr_size): Relying on default #size-cells value for /fragment@13/__overlay__
+Warning (avoid_default_addr_size): Relying on default #address-cells value for /fragment@13/__overlay__/sensor3-ch-mode0
+Warning (avoid_default_addr_size): Relying on default #size-cells value for /fragment@13/__overlay__/sensor3-ch-mode0
+Warning (avoid_default_addr_size): Relying on default #address-cells value for /fragment@model/__overlay__/i2c@20/tc3xxk@20
+Warning (avoid_default_addr_size): Relying on default #size-cells value for /fragment@model/__overlay__/i2c@20/tc3xxk@20
+Warning (avoid_default_addr_size): Relying on default #address-cells value for /fragment@45/__overlay__/etspi-spi@0
+Warning (avoid_default_addr_size): Relying on default #size-cells value for /fragment@45/__overlay__/etspi-spi@0
+Generating dtb.img...
+dtbTool: model_info-chip of /mnt/080b9fba-139f-40aa-b1d1-529119d8c495/develop/Android/Kernel/android_kernel_samsung_universal9610/arch/arm64/boot/dtb//exynos9610-a50_swa_open_00.dtb is of invalid size, skipping
+dtbTool: model_info-chip of /mnt/080b9fba-139f-40aa-b1d1-529119d8c495/develop/Android/Kernel/android_kernel_samsung_universal9610/arch/arm64/boot/dtb//exynos9610-a50_swa_open_01.dtb is of invalid size, skipping
+dtbTool: model_info-chip of /mnt/080b9fba-139f-40aa-b1d1-529119d8c495/develop/Android/Kernel/android_kernel_samsung_universal9610/arch/arm64/boot/dtb//exynos9610-a50_swa_open_02.dtb is of invalid size, skipping
+dtbTool: model_info-chip of /mnt/080b9fba-139f-40aa-b1d1-529119d8c495/develop/Android/Kernel/android_kernel_samsung_universal9610/arch/arm64/boot/dtb//exynos9610-a50_swa_open_03.dtb is of invalid size, skipping
+dtbTool: model_info-chip of /mnt/080b9fba-139f-40aa-b1d1-529119d8c495/develop/Android/Kernel/android_kernel_samsung_universal9610/arch/arm64/boot/dtb//exynos9610-a50_swa_open_04.dtb is of invalid size, skipping
+dtbTool: model_info-chip of /mnt/080b9fba-139f-40aa-b1d1-529119d8c495/develop/Android/Kernel/android_kernel_samsung_universal9610/arch/arm64/boot/dtb//exynos9610-a50_swa_open_06.dtb is of invalid size, skipping
+dtbTool: unable to locate any dtbs in the given path
+error: could not load device tree blobs '/mnt/080b9fba-139f-40aa-b1d1-529119d8c495/develop/Android/Kernel/android_kernel_samsung_universal9610/arch/arm64/boot/dtb/'
+Done.
+
+=================================
+END   : FUNC_BUILD_KERNEL
+=================================
+
+Total compile time was 6 seconds
